@@ -28,10 +28,10 @@ Nếu vi phạm bất kỳ điều khoản nào nêu trên, nhóm xin chịu ho�
 
 \*\*Chữ ký cam kết của các thành viên:\*\*
 
-\- Thành viên 1 (Trưởng nhóm): Nguyễn Anh Dũng - Ngày ký: 23/05/2026
+\- Thành viên 1 (Trưởng nhóm): Chu Đứuc Huy
 
-\- Thành viên 2: Ngô Gia Bảo - Ngày ký: 23/05/2026
+\- Thành viên 2: Phạm Danh Thái
 
-\- Thành viên 3: Trần Đình Đức Toàn - Ngày ký: 23/05/2026
+\- Thành viên 3: Nguyễn Đình Trí
 
-\- Thành viên 4: Nguyễn Hữu Mạnh - Ngày ký: 23/05/2026
+\- Thành viên 4: Nguyễn Duy Lượng
