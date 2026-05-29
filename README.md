@@ -1,85 +1,125 @@
-# CF01 - Phishing Simulation (Mô phỏng Email giả mạo mời tiệc/tặng quà)
+# CF01 - Phishing Simulation (Mô phỏng Email giả mạo xác thực tài khoản)
 
 ## 1. Thông tin nhóm thực hiện & Phân công công việc
-- Học phần: FIT4012 - Nhập môn An toàn bảo mật thông tin
-- Mã đề tài: CF01 - Phishing Simulation
 
-1. Thông tin nhóm thực hiện & Phân công công việc
-Học phần: FIT4012 - Nhập môn An toàn bảo mật thông tin
+* Học phần: FIT4012 - Nhập môn An toàn bảo mật thông tin
+* Mã đề tài: CF01 - Phishing Simulation
 
-Mã đề tài: CF01 - Phishing Simulation
+### Nhóm thực hiện: Nhóm 2
 
-Nhóm thực hiện: Nhóm 6
+### 1. Pham Danh Thái 
 
-1. Nguyễn Anh Dũng (MSSV: 1871020167)
+**Vai trò:** Trưởng nhóm / Presenter chính
 
-Vai trò: Trưởng nhóm / Presenter chính
+**Nhiệm vụ chi tiết:**
 
-Nhiệm vụ chi tiết: * Quản lý tiến độ, tổng hợp file nộp.
+* Quản lý tiến độ và tổng hợp file nộp.
+* Viết tài liệu hệ thống (`README.md`, `threat-model.md`, `ethics-safe-use.md`).
+* Xây dựng nội dung kịch bản mô phỏng Email xác thực tài khoản giả mạo.
+* Thuyết trình chính và dẫn dắt toàn bộ nội dung trên lớp.
 
-Viết tài liệu hệ thống (README.md, threat-model.md, ethics-safe-use.md).
+**Khối lượng hoàn thành:** 100%
 
-Thuyết trình chính và dẫn dắt toàn bộ nội dung trên lớp.
+---
 
-Khối lượng hoàn thành: 100%
+### 2. Nguyễn Đình Trí
 
-2. Trần Đình Đức Toàn (MSSV: 1871020574)
+**Vai trò:** Designer / Support
 
-Vai trò: Designer / Support
+**Nhiệm vụ chi tiết:**
 
-Nhiệm vụ chi tiết: * Thiết kế bộ slide thuyết trình của nhóm trên nền tảng Canva.
+* Thiết kế slide thuyết trình bằng Canva.
+* Thiết kế giao diện Email xác thực tài khoản giả lập theo phong cách Gmail.
+* Xử lý, tối ưu hình ảnh minh họa đưa vào slide báo cáo.
+* Hỗ trợ chuẩn bị thiết bị trình chiếu và demo trên lớp.
 
-Xử lý, cắt ghép và tối ưu hình ảnh chụp giao diện Email giả lập vào slide.
+**Khối lượng hoàn thành:** 100%
 
-Phụ trách bấm slide và hỗ trợ chuẩn bị thiết bị khi thuyết trình.
+---
 
-Khối lượng hoàn thành: 100%
+### 3.
 
-3. Ngô Gia Bảo (MSSV: 1871020072)
+**Vai trò:** Coder / Technical Support
 
-Vai trò: Coder / Technical Support
+**Nhiệm vụ chi tiết:**
 
-Nhiệm vụ chi tiết: * Lập trình file HTML trang đích cảnh báo Phishing (canh-bao.html).
+* Lập trình file HTML trang cảnh báo Phishing (`canh-bao.html`).
+* Xây dựng giao diện Email giả lập bằng HTML/CSS.
+* Cấu hình liên kết local từ Email sang trang cảnh báo.
+* Chuẩn bị môi trường chạy demo offline an toàn.
 
-Cấu hình liên kết local từ Email sang trang cảnh báo.
+**Khối lượng hoàn thành:** 100%
 
-Hỗ trợ kỹ thuật, chuẩn bị môi trường chạy offline cho buổi demo.
+---
 
-Khối lượng hoàn thành: 100%
+### 4. 
 
-4. Nguyễn Hữu Mạnh (MSSV: 1871020381)
+**Vai trò:** Analyst / Diễn viên Demo
 
-Vai trò: Analyst / Diễn viên Demo
+**Nhiệm vụ chi tiết:**
 
-Nhiệm vụ chi tiết: * Chạy thử kịch bản, chụp ảnh lưu minh chứng vào thư mục evidence/.
+* Kiểm thử toàn bộ kịch bản mô phỏng trước buổi báo cáo.
+* Chụp ảnh minh chứng và lưu vào thư mục `evidence/`.
+* Đóng vai nạn nhân tương tác với Email giả mạo trong phần demo trực tiếp.
+* Hỗ trợ trả lời câu hỏi phản biện (Q&A).
 
-Đóng vai nạn nhân (Role-play) tương tác trực tiếp trong phần Demo trên lớp.
+**Khối lượng hoàn thành:** 100%
 
-Hỗ trợ trả lời câu hỏi phản biện (Q&A).
+---
 
-Khối lượng hoàn thành: 100%
-## 2. Tổng quan đề tài
-Đề tài thực hiện nghiên cứu và mô phỏng một tình huống tấn công Phishing (Lừa đảo qua email) nhắm vào sinh viên Khoa CNTT. Kịch bản đánh vào tâm lý tò mò và mong muốn nhận phần thưởng của sinh viên thông qua một email giả mạo với tiêu đề "Mời tham dự tiệc cuối năm và nhận quà tri ân". 
+# 2. Tổng quan đề tài
 
-Hoạt động này giúp sinh viên nhận biết trực quan các dấu hiệu bất thường của một email lừa đảo, hiểu rõ tác động rủi ro và trang bị checklist phòng thủ chủ động.
+Đề tài thực hiện nghiên cứu và mô phỏng một tình huống tấn công Phishing (Lừa đảo qua Email) nhắm vào sinh viên trường Đại học Đại Nam thông qua hình thức giả mạo Email yêu cầu xác thực lại tài khoản sinh viên.
 
-## 3. Các công cụ sử dụng trong Lab
-- **Canva:** Thiết kế slide thuyết trình và xử lý, tối ưu hình ảnh chụp giao diện email giả lập.
-- **HTML/CSS (Môi trường Local):** Xây dựng trang đích (Landing Page) hiển thị nội dung cảnh báo an toàn khi người dùng click vào link.
-- **Trình duyệt Web (Chrome/Edge):** Dùng hiển thị email mockup và trang cảnh báo trong quá trình demo thuyết trình.
+Kịch bản lợi dụng tâm lý lo lắng của người dùng khi nhận được thông báo rằng tài khoản Email sinh viên hoặc cổng thông tin học tập có dấu hiệu đăng nhập bất thường và cần xác minh khẩn cấp để tránh bị khóa.
 
-## 4. Gói sản phẩm bàn giao (Cấu trúc thư mục)
-- `README.md`: File này (Giới thiệu và hướng dẫn chạy demo).
-- `threat-model.md`: Mô hình hóa mối đe dọa, phân tích tài sản, lỗ hổng và tác động.
-- `ethics-safe-use.md`: Bản cam kết sử dụng an toàn và tuân thủ đạo đức an toàn thông tin.
-- `slides/`: Chứa file slide báo cáo thuyết trình trước lớp.
-- `demo/`: Chứa ảnh thiết kế email lừa đảo giả lập và file HTML cảnh báo.
-- `evidence/`: Ảnh chụp màn hình minh chứng các bước thực hiện kịch bản lỗi và kịch bản phòng thủ.
+Mục tiêu của đề tài là giúp sinh viên:
 
-## 5. Hướng dẫn chạy chương trình Demo (Môi trường an toàn)
+* Nhận biết các dấu hiệu bất thường trong Email giả mạo.
+* Hiểu cách thức hoạt động của các cuộc tấn công Phishing.
+* Nâng cao nhận thức về an toàn thông tin cá nhân.
+* Trang bị kỹ năng kiểm tra Email trước khi nhấn vào liên kết.
+
+---
+
+# 3. Các công cụ sử dụng trong Lab
+
+* **Canva:** Thiết kế slide thuyết trình và xử lý hình ảnh minh họa giao diện Email giả lập.
+* **HTML/CSS (Môi trường Local):** Xây dựng giao diện Email xác thực tài khoản và trang cảnh báo Phishing.
+* **Trình duyệt Web (Chrome/Edge):** Hiển thị Email mô phỏng và trang cảnh báo trong quá trình demo.
+* **Visual Studio Code:** Chỉnh sửa và quản lý mã nguồn HTML/CSS.
+
+---
+
+# 4. Gói sản phẩm bàn giao (Cấu trúc thư mục)
+
+* `README.md`: File giới thiệu đề tài và hướng dẫn chạy demo.
+* `threat-model.md`: Phân tích mô hình mối đe dọa và các rủi ro bảo mật.
+* `ethics-safe-use.md`: Cam kết sử dụng an toàn và đúng mục đích học tập.
+* `slides/`: Chứa slide thuyết trình của nhóm.
+* `demo/`: Chứa file Email giả lập và trang cảnh báo Phishing.
+* `evidence/`: Ảnh chụp minh chứng các bước thực hiện demo.
+
+---
+
+# 5. Hướng dẫn chạy chương trình Demo (Môi trường an toàn)
+
 1. Truy cập vào thư mục `demo/`.
-2. Mở file ảnh giao diện email giả mạo (`email-gia-lap.png`). Trong kịch bản thực tế, người dùng sẽ nhấn vào nút "Xác nhận tham gia".
-3. Khi click vào liên kết (được cấu hình trỏ local về file HTML), trình duyệt sẽ mở file `canh-bao.html`.
-4. Giao diện trang web cảnh báo giáo dục an toàn thông tin sẽ hiện ra thay vì form thu thập mật khẩu thật.
 
-*Lưu ý: Toàn bộ quá trình được thực hiện offline hoàn toàn trên máy tính cá nhân, tuyệt đối không gửi qua môi trường Internet và không thu thập bất kỳ dữ liệu nào của người dùng.*
+2. Mở file giao diện Email giả mạo (`email-xac-thuc.html` hoặc `email-xac-thuc.png`).
+
+3. Trong Email mô phỏng, người dùng sẽ nhấn vào nút:
+   **“XÁC THỰC TÀI KHOẢN NGAY”**.
+
+4. Liên kết được cấu hình local sẽ chuyển sang file `canh-bao.html`.
+
+5. Trang cảnh báo giáo dục an toàn thông tin sẽ hiển thị nhằm giải thích đây là một tình huống Phishing mô phỏng phục vụ mục đích học tập.
+
+---
+
+## Lưu ý đạo đức và an toàn
+
+* Toàn bộ hệ thống hoạt động offline trên máy tính cá nhân.
+* Không gửi Email qua Internet thật.
+* Không thu thập mật khẩu hoặc thông tin cá nhân của người dùng.
+* Mục đích duy nhất của đề tài là phục vụ học tập và nâng cao nhận thức về an toàn thông tin.
