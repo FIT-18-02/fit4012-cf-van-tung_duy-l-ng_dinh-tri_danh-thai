@@ -28,7 +28,7 @@ Nếu vi phạm bất kỳ điều khoản nào nêu trên, nhóm xin chịu ho�
 
 \*\*Chữ ký cam kết của các thành viên:\*\*
 
-\- Thành viên 1 (Trưởng nhóm): Chu Đứuc Huy
+\- Thành viên 1 (Trưởng nhóm): Chu Đức Huy
 
 \- Thành viên 2: Phạm Danh Thái
 
